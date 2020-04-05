@@ -10,7 +10,7 @@ def analyze():
    
     text = some_json['text']  
     response = chatgui.chatbot_response(text)
-    return str(response)
+    return str("You have reached us")
 
 if __name__=='__main__':
     app.run(debug=True)
