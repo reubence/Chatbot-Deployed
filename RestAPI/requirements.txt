@@ -1,0 +1,10 @@
+flask = 1.1.1
+nltk
+keras
+uwsgi
+flask-cors
+json
+random
+pickle
+numpy
+
