@@ -4,6 +4,6 @@ keras
 uwsgi
 flask-cors
 simplejson
-pickle
+pickle-mixin
 numpy
 
