@@ -1,4 +1,4 @@
-flask
+Flask
 nltk
 keras
 uwsgi
@@ -6,4 +6,4 @@ flask-cors
 simplejson
 pickle-mixin
 numpy
-
+Gunicorn
