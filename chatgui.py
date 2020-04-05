@@ -4,6 +4,8 @@ lemmatizer = WordNetLemmatizer()
 import pickle
 import numpy as np
 
+nltk.download('punkt')
+
 from keras.models import load_model
 model = pickle.load(open('katana-assistant-model.pkl','rb'))
 import json
