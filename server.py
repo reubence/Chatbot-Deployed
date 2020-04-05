@@ -9,7 +9,7 @@ def analyze():
     some_json=request.get_json()
    
     text = some_json['text']  
-    response = chatgui.chatbot_response(text)
+    #response = chatgui.chatbot_response(text)
     return str("You have reached us")
 
 if __name__=='__main__':
