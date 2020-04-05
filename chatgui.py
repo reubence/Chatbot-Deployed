@@ -5,9 +5,11 @@ import pickle
 import numpy as np
 
 nltk.download('punkt')
+nltk.download('wordnet')
 
 from keras.models import load_model
-model = pickle.load(open('katana-assistant-model.pkl','rb'))
+model = load_model('/content/chatbot_model.h5')
+#model = pickle.load(open('katana-assistant-model.pkl','rb'))
 import json
 import random
 intents = json.loads(open('intents.json').read())
