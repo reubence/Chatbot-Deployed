@@ -1,5 +1,6 @@
 Flask
 nltk
+tensorflow
 keras
 uwsgi
 flask-cors
