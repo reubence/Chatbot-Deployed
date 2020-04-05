@@ -7,4 +7,6 @@ simplejson
 pickle-mixin
 numpy
 Gunicorn
-tensorflow
+tensorflow==1.0.0
+keras_applications==1.0.6
+keras_preprocessing==1.0.5
