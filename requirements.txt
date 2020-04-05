@@ -7,4 +7,4 @@ simplejson
 pickle-mixin
 numpy
 Gunicorn
-tensorflow==1.x
+tensorflow==1.15.2
