@@ -1,6 +1,5 @@
 Flask
 nltk
-tensorflow
 keras
 uwsgi
 flask-cors
@@ -8,3 +7,4 @@ simplejson
 pickle-mixin
 numpy
 Gunicorn
+tensorflow-gpu
