@@ -22,6 +22,9 @@ lemmatizer = WordNetLemmatizer()
 
 #part 1 involves preprocessing the users input into your app AND initialising your model, model.compile and LOADING WEIGHTS
 
+nltk.download("punkt")
+nltk.download("wordnet")
+
 def clean_up_sentence(sentence):
     # tokenize the pattern - split words into array
     sentence_words = nltk.word_tokenize(sentence)
