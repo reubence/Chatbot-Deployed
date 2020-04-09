@@ -7,4 +7,4 @@ numpy==1.17.2
 pandas==0.25.1
 pickleshare==0.7.5
 requests==2.22.0
-tensorflow==2.1.0
+tensorflow
